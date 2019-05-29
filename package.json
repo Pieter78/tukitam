@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Pieter78/tukitam.git"
   },
   "scripts": {
     "start": "ts-node-dev --respawn src/index.ts"
@@ -25,5 +25,12 @@
     "ts-node": "^8.2.0",
     "ts-node-dev": "^1.0.0-pre.39",
     "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.5.0",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.4"
   }
 }
